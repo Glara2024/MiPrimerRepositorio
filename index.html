@@ -1,0 +1,46 @@
+﻿<html>
+
+<head>
+    <title>Calculadora V1.0</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <!--Iniciamos nuestra primera pagina web-->
+    <!--"h1" es para texto, es lo que aparece en la pagina que estamos creando-->
+    <!--"h1.2,3" es para tamaño de texto, -->
+    <h3>¡Calculadora Basica!</h3>
+
+    <div>
+        <input id="num1" type="text" placeholder="0" />
+    </div>
+
+    <div>
+        <button id="btn7" onclick="Escribir('7')">7</button>
+        <button id="btn8" onclick="Escribir('8')">8</button>
+        <button id="btn9" onclick="Escribir('9')">9</button><button id="btnMultiplicar" onclick="Multiplicar()">*</button>
+    </div>
+
+    <div>
+        <button id="btn4" onclick="Escribir('4')">4</button>
+        <button id="btn5" onclick="Escribir('5')">5</button>
+        <button id="btn6" onclick="Escribir('6')">6</button><button id="btnResta" onclick="Restar()">-</button>
+    </div>
+
+    <div>
+        <button id="btn1" onclick="Escribir('1')">1</button>
+        <button id="btn2" onclick="Escribir('2')">2</button>
+        <button id="btn3" onclick="Escribir('3')">3</button><button id="btnSuma" onclick="Sumar()">+</button>
+    </div>
+
+
+    <button id="btnResultado" onclick="Resultado()"">=</button>
+    <button id="btn0" onclick="Escribir('0')">0</button>
+   
+    <button id="btnDividir" onclick="Dividir()">/</button>
+    <button id="btnborrar" onclick="clearDisplay()">C</button>
+
+</body>
+</html>
