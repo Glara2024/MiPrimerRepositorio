@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora V1.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Calculadora Básica</h3>
+        <div class="calculator">
+            <input id="num1" type="text" placeholder="0" readonly />
+            <div class="buttons">
+                <button onclick="escribir('7')">7</button>
+                <button onclick="escribir('8')">8</button>
+                <button onclick="escribir('9')">9</button>
+                <button onclick="multiplicar()">×</button>
+
+                <button onclick="escribir('4')">4</button>
+                <button onclick="escribir('5')">5</button>
+                <button onclick="escribir('6')">6</button>
+                <button onclick="restar()">−</button>
+
+                <button onclick="escribir('1')">1</button>
+                <button onclick="escribir('2')">2</button>
+                <button onclick="escribir('3')">3</button>
+                <button onclick="sumar()">+</button>
+
+                <button onclick="escribir('0')">0</button>
+                <button onclick="dividir()">÷</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="resultado()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
